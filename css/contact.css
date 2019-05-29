@@ -1,17 +1,22 @@
 main {
-    height: 100vh;
+    height: 81vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
-
-form {
+.h1-flex{
     display: flex;
+    padding: 0px 99px 0px;
+    
+}
+form{
+    
     flex-direction: column;
     align-items: center;
     border: solid 4px red;
+    border-radius: 10px;
     background-color: black;
-    padding: 40px 40px 40px;
+    padding: 40px 40px 17px;
     color: white;
 
 }
@@ -19,13 +24,32 @@ form {
 form div {
     padding: 10px;
 }
+.coment{
+    padding: 9px 38px 100px;
+}
 
 form div input {
     padding: 9px 38px 8px;
 }
+form button{
+    display: flex;
+    align-items: flex-start;
+}
 
 button {
     background-color: red;
-    padding: 13px 104px 17px;
+    padding: 10px 29px 10px;
     border: solid 5px rgb(94, 19, 19);
+    border-radius: 10px;
+}
+
+
+.maps{
+    border: solid 4px red;
+    border-radius: 10px;
+    background-color: white;
+}
+iframe{
+    width: 500px;
+    height: 400px;
 }
