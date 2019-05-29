@@ -37,6 +37,7 @@ form div input {
 form button{
     display: flex;
     align-items: flex-start;
+    margin: 0px 8px 0px;
 }
 
 button {
