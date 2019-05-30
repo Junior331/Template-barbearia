@@ -17,7 +17,14 @@ header {
     height: 10vh;
     background-color: black;
 }
-
+header div{
+    display: flex;
+    align-items: center;
+}
 header h1 {
     color: white;
+}
+
+.icon{
+    height: 75px;
 }
