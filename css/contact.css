@@ -58,3 +58,17 @@ iframe{
     width: 500px;
     height: 400px;
 }
+@media screen and (max-width: 931px)
+{
+    .mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    
+
+
+
+}
