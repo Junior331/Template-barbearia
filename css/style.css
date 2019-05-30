@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    height: 10vh;
+    height: 90px;
     background-color: black;
 }
 header div{
@@ -23,8 +23,41 @@ header div{
 }
 header h1 {
     color: white;
+    font-size: 50px;
 }
 
 .icon{
     height: 75px;
+}
+.nav{
+    display: flex;
+    padding: 1px;
+    height: 90px;
+    list-style-type: none;
+}
+.nav li{
+    
+    
+}
+.nav li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    height: 100%;
+    font-size: 25px;
+}
+.nav li a:hover{
+    background-color: rgb(36, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    height: 100%;
+
+}
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
 }
