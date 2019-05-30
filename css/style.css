@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(75, 68, 68);
+    background-color: rgb(31, 31, 31);
 }
 
 .flex-j-between {
@@ -47,8 +47,11 @@ header h1 {
     height: 100%;
     font-size: 25px;
 }
+.active{
+    background-color: rgb(50, 50, 50);
+}
 .nav li a:hover{
-    background-color: rgb(36, 34, 34);
+    background-color: rgb(50, 50, 50);
     display: flex;
     justify-content: center;
     align-items: center;
