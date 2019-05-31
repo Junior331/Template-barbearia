@@ -60,14 +60,43 @@ iframe{
 }
 @media screen and (max-width: 931px)
 {
+    
+    body{
+        background-image: url("../img/bg-5.jpg");
+        background-size:cover ;
+    }
     .mobile{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-
+        
     }
+    iframe{
+        width: 310px;
+        height: 330px;
+    }
+    .acitve{
+        display: none;
+    }
+}
+@media screen and (max-width: 350px){
     
+    header{
+        width:100vh;
+    }
+    main {
+        width: 100vh;
+        background-image: url("../img/bg-5.jpg");
+        background-size:cover;   
+        
+    }
+    body{
+        background-image: url("../img/bg-5.jpg");
+        background-size:cover ;
+    }
+
+
 
 
 
