@@ -12,6 +12,12 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+.flex-cdirection{
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+    flex-direction: column;
+}
 
 header {
     height: 90px;
